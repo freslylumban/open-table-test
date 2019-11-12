@@ -1,0 +1,110 @@
+* {
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.sec-opentable {
+  .title {
+    color: blue;
+    text-align: center;
+  }
+
+  .div--table-waiter {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 30px;
+    position: relative;
+    .img--reservation {
+      width: 250px;
+    }
+    .img--waiter {
+      width: 70px;
+      margin: auto 10px;
+    }
+
+    .display--table1,
+    .display--table2 {
+      position: absolute;
+      h2 {
+        margin: 0;
+      }
+      .order--table1,
+      .order--table2 {
+        display: flex;
+        margin: 0 0 20px;
+        .left,
+        .right {
+          margin: 5px 10px;
+          h4 {
+            margin: 0;
+          }
+          p {
+            margin: 0;
+          }
+        }
+      }
+      .price--table1,
+      .price--table2 {
+        h2 {
+          margin: 0;
+        }
+        p {
+          margin: 0;
+          font-size: 20px;
+          span {
+            font-size: 24px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+    .display--table1 {
+      left: 30px;
+      text-align: left;
+    }
+    .display--table2 {
+      right: 30px;
+      text-align: right;
+    }
+  }
+
+  .div--table {
+    display: flex;
+    justify-content: space-evenly;
+    .div--table1,
+    .div--table2 {
+      width: 50%;
+      text-align: center;
+      position: relative;
+      .table-1,
+      .table-2 {
+        width: 200px;
+      }
+      .btn-order1 {
+        position: absolute;
+      }
+      .btn-order2 {
+        position: absolute;
+        top: 30px;
+      }
+      .order--list {
+        text-align: left;
+        form {
+          padding: 10px;
+          display: flex;
+          justify-content: center;
+          .div--form-starters,
+          .div--form-mains,
+          .div--form-desserts {
+            margin: 0 10px 0;
+            h3 {
+              margin: 0;
+            }
+          }
+          .btn-submit {
+            margin: auto 0;
+          }
+        }
+      }
+    }
+  }
+}
