@@ -5,6 +5,10 @@ This is Interview Test from Buyble Company.
 
 In the project directory, you can run:
 
+### `yarn install`
+
+Install yarn first after clone the app.
+
 ### `yarn start`
 
 Runs the app in the development mode.
